@@ -13,6 +13,8 @@ O aplicativo mobile (React Native com Expo) será usado principalmente por **gar
 
 ## 🧩 Fluxo Geral do Restaurante
 
+LINK POSTMAN: https://app.getpostman.com/join-team?invite_code=07edb3fe18dadb239391dff0b878a6b705426ce8668624355605062dbd4c2e15&target_code=84b93b66a5aaa2ac1c05c7d7319f0646
+
 ### 1. 🪑 Cliente chega → Mesa é ocupada
 - O garçom **seleciona uma mesa livre** no app.  
 - O sistema **cria ou recupera** a mesa com o status inicial `"livre"`.  
