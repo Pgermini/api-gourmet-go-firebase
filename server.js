@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const admin = require("firebase-admin");
-const serviceAccount = require("./serviceAccountKey.json");
+const serviceAccount = require("./gourmet-go-16bac-firebase-adminsdk-fbsvc-df2e632aa0.json");
 
 const app = express();
 app.use(cors());
@@ -9,7 +9,7 @@ app.use(express.json());
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://gourmet-go-16bac-default-rtdb.firebaseio.com/", // coloque sua URL do Realtime Database
+  databaseURL: "https://gourmet-go-16bac-default-rtdb.firebaseio.com"
 });
 
 const db = admin.database();
